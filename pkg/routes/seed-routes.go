@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/JPanettieri/go-seedCrudMySQL/pkg/controllers"
+	"github.com/JPanettieri/go-seedCrudMySQL/tree/master/pkg/controllers"
 	"github.com/gorilla/mux"
 )
 

@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/JPanettieri/go-seedCrudMySQL/pkg/routes"
+	"github.com/JPanettieri/go-seedCrudMySQL/tree/master/pkg/routes"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
 )

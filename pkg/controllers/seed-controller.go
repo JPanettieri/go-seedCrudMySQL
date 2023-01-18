@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/JPanettieri/go-seedCrudMySQL/pkg/models"
-	"github.com/JPanettieri/go-seedCrudMySQL/pkg/utils"
+	"github.com/JPanettieri/go-seedCrudMySQL/tree/master/pkg/models"
+	"github.com/JPanettieri/go-seedCrudMySQL/tree/master/pkg/utils"
 	"github.com/gorilla/mux"
 )
 
