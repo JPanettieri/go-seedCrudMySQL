@@ -1,4 +1,4 @@
-module github.com/JPanettieri/go-seedCrudSQL
+module github.com/JPanettieri/go-seedCrudMySQL
 
 go 1.19
 

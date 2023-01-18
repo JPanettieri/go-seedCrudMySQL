@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/JPanettieri/go-seedCrudSQL/pkg/config"
+	"github.com/JPanettieri/go-seedCrudMySQL/pkg/config"
 	"github.com/jinzhu/gorm"
 )
 
