@@ -1,8 +1,8 @@
 package config
 
 import (
-	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 var (
@@ -10,7 +10,7 @@ var (
 )
 
 func Connect() {
-	d, err := gorm.Open("mysql", "SeedManager:JPanettieri@seed/seed_bank?charset=utf8&parseTime=True&loc=Local")
+	d, err := gorm.Open("mysql", "SeedManager:JPanettieri@seed/seeds?charset=utf8&parseTime=True&loc=Local")
 	if err != nil {
 		panic(err)
 	}

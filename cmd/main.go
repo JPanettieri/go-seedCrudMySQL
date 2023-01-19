@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/JPanettieri/go-seedCrudMySQL/tree/master/pkg/routes"
-	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 func main() {
