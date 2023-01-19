@@ -10,7 +10,7 @@ var (
 )
 
 func Connect() {
-	d, err := gorm.Open("mysql", "SeedManager:JPanettieri@seed/seeds?charset=utf8&parseTime=True&loc=Local")
+	d, err := gorm.Open("mysql", "SeedManager:JPanettieri@tcp(127.0.0.1:3306)/seeds?charset=utf8&parseTime=True&loc=Local")
 	if err != nil {
 		panic(err)
 	}
